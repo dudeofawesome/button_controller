@@ -14,13 +14,11 @@ $ npm install button_controller
 ```js
 var buttonController = require('button_controller')
 
-buttonController.add(1, function () {
+buttonController.add(/*GPIO used*/ 1, function () {
   console.log("button clicked");
 }, function () {
   console.log("button down");
 }, function () {
   console.log("button click ended");
 });
-
-app.listen(3000)
 ```
