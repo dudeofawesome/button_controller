@@ -1,7 +1,7 @@
 Button Controller
 =========
 
-Ultra simple hardware button callbacks
+Ultra simple hardware button callbacks for Intel Edison
 
 ## Installation
 

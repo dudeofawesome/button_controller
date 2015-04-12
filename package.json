@@ -1,6 +1,6 @@
 {
   "name": "button_controller",
-  "description": "Ultra simple hardware button callbacks",
+  "description": "Ultra simple hardware button callbacks for Intel Edison",
   "version": "0.1.0",
   "author": {
     "name": "Louis Orleans",
