@@ -1,48 +1,27 @@
 {
   "name": "button_controller",
-  "description": "Ultra simple hardware button callbacks for Intel Edison",
   "version": "0.1.0",
-  "author": {
-    "name": "Louis Orleans",
-    "email": "louis@0rleans.com"
+  "description": "Ultra simple hardware button callbacks for Intel Edison",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1"
   },
-  "license": "GPL V2",
   "repository": {
     "type": "git",
     "url": "git://github.com/dudeofawesome/button_controller"
   },
-  "homepage": "http://github.com/dudeofawesome/button_controller/",
   "keywords": [
     "button",
     "callback",
     "hardware",
     "api"
   ],
-  "dependencies": {
-
+  "author": {
+    "name": "Louis Orleans",
+    "email": "louis@0rleans.com"
   },
-  "devDependencies": {
-
-  },
-  "files": [
-    "LICENSE",
-    "Readme.md",
-    "index.js",
-    "lib/"
-  ],
-  "scripts": {
-    // "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/",
-    // "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/",
-    // "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
-    // "test-tap": "mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/"
-  },
-  "readme": "Button Controller\n=========\n\nUltra simple hardware button callbacks for Intel Edison\n\n## Installation\n\n```bash\n$ npm install button_controller\n```\n\n## Usage\n\n```js\nvar buttonController = require('button_controller');\n\nbuttonController.add(/*GPIO used*/ 1, function () {\n  console.log('button clicked');\n}, function () {\n  console.log('button down');\n}, function () {\n  console.log('button long clicked');
-}, function () {\n  console.log('button click ended');\n});\n```",
-  "readmeFilename": "Readme.md",
+  "license": "GPL V2",
   "bugs": {
     "url": "https://github.com/dudeofawesome/button_controller/issues"
-  },
-  "_id": "button_controller@0.1.0",
-  "_from": "express@",
-  "_resolved": "https://registry.npmjs.org/button_controller/-/button_controller-0.1.0.tgz"
+  }
 }
